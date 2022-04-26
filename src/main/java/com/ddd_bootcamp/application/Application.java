@@ -18,6 +18,24 @@ import com.ddd_bootcamp.domain.Customer;
  *  Address is Value Object
  *  --  customer.updateAddress(new Address(“Mumbai”))
  */
+
+/**
+ *
+ * Database transactions -  ACID
+ *
+ * ACID =>  Entity says I will take care of  AC ( Atomic and Consistent).
+ * then
+ * Entity -> upgrades to -> Aggregate
+ *
+ * Aggregate and Aggregate root are Customer
+ *
+ * Aggregate root - Entity which is at top
+ *
+ *
+ */
+
+
+
 public class Application {
     public static void main(String[] args) {
         Address address = new Address("Pune");
@@ -36,6 +54,5 @@ public class Application {
         System.out.println("---------------------------------------------------------");
         System.out.println("After Address Change = " + customer);
         System.out.println("---------------------------------------------------------");
-
     }
 }
