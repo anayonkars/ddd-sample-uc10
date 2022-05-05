@@ -49,7 +49,9 @@ public class Application {
         System.out.println("---------------------------------------------------------");
 
         Address newAddress = new Address("Mumbai");
+        //start database transaction
         customer.updateAddress(newAddress);
+        //end database transaction
 
         System.out.println("---------------------------------------------------------");
         System.out.println("After Address Change = " + customer);

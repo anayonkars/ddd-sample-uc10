@@ -2,6 +2,7 @@ package com.ddd_bootcamp.domain;
 
 import java.util.UUID;
 
+//Entity
 public class Account {
 
     private UUID accountId;

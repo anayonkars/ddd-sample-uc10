@@ -8,7 +8,8 @@ import java.util.UUID;
  *
  * Code Problem 10:
  * Customer and Bank Account. ( Not related to e-commerce domain)
- * When Customer’s Address is updated, update all her Bank Accounts addresses as well. ( This is invariant, or business rules or consistency rule given by business)
+ * When Customer’s Address is updated, update all her Bank Accounts addresses as well.
+ * ( This is invariant, or business rules or consistency rule given by business)
  * --
  * Note –
  * Customer is Entity.  Account is Entity.
